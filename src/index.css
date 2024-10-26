@@ -1,0 +1,99 @@
+/* src/App.css */
+.weather-display .details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0.3rem;
+  vertical-align: middle;
+}
+
+.humidity, .wind {
+  display: flex;
+  align-items: center;
+}
+
+/* src/App.css */
+.app {
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-display {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+/* src/App.css */
+.back-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
