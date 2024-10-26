@@ -12,7 +12,7 @@ import clear_icon from './assets/clear.png';
 
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
-const weatherIcons = {
+const weatherIcons = {                              // måtte hjelpe her og feilsøke konsoll for endepunkter og skrive inn riktig ID for iconene. Det skjønte den ikke.
     "01d": clear_icon,
     "01n": clear_icon,
     "02d": cloudy_icon,
